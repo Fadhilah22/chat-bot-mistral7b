@@ -5,9 +5,16 @@ In the project directory, you can run:
 
 Installs node_modules and all dependencies, should be light.
 
-### `Now you will have to prepare two terminal to run 2 server, the frontend (react) and the proxy:`
+### `There are mode you can run, front-end server only mode, proxy only, and both`
 
-### `1. Frontend server:`
+### `1. Complete run:`
+
+In the project directory, you should run:
+### `npm run start-both`
+
+Runs both the front-end and proxy server.
+
+### `2. Frontend server:`
 
 In the project directory, you should run:
 ### `npm start`
@@ -15,7 +22,7 @@ In the project directory, you should run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `2. Proxy server:`
+### `3. Proxy server:`
 
 In the project directory, you should run:
 ### `node src/proxy.js`
